@@ -12,7 +12,7 @@ public class Twitter {
                 temp = temp + val;
             }
             while(temp.length() < n){
-                temp = " " + temp;
+                temp = temp + " ";
             }
             fin = fin + temp + '\n';
         }
